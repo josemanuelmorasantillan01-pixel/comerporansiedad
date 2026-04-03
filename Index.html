@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="comerporansiedad" content="width=device-width, initial-scale=1.0" />
+  <title>COMER POR ANSIEDAD</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2c7be5, #00b4d8);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: white;
+      color: #2c7be5;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e6f0ff;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #2c7be5;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    .cta {
+      text-align: center;
+      background: #2c7be5;
+      color: white;
+      padding: 50px 20px;
+      border-radius: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Trastornos de Ansiedad</h1>
+    <p>Comprende, identifica y aprende a manejar la ansiedad</p>
+    <a href="#info" class="btn">Saber más</a>
+  </header>
+
+  <main id="info">
+
+    <section class="grid">
+      <div class="card">
+        <h2>¿Qué es?</h2>
+        <p>
+          La ansiedad es una respuesta natural del cuerpo al estrés. Cuando se vuelve intensa o constante, puede afectar la vida diaria.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Síntomas</h2>
+        <ul>
+          <li>Nerviosismo</li>
+          <li>Palpitaciones</li>
+          <li>Dificultad para respirar</li>
+          <li>Insomnio</li>
+          <li>Problemas de concentración</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Causas</h2>
+        <ul>
+          <li>Estrés prolongado</li>
+          <li>Factores genéticos</li>
+          <li>Experiencias traumáticas</li>
+          <li>Problemas de salud</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>¿Cuándo buscar ayuda?</h2>
+      <p>
+        Si la ansiedad interfiere con tu vida diaria, es importante consultar con un profesional.
+      </p>
+      <a href="#" class="btn">Contactar ayuda</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Contenido adaptado de Mayo Clinic</p>
+  </footer>
+
+</body>
+</html>
